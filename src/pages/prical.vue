@@ -184,6 +184,16 @@
 							num: 1,
 							cycle: false
 						},
+                        {
+							name: 'POST机',
+							unit: "个",
+							pricalName: "500",
+							checked: false,
+							budgetList:false,//是否加入了预算清单
+							budgetListNum:1,//加入了预算清单的数量
+							num: 1,
+							cycle: false
+						},
                         
 					],
 					stock_amn: [{
@@ -267,7 +277,7 @@
 							cycle: '年'
 						},
                         {
-							name: '蓝牙对接',
+							name: '设备接口服务年费',
 							unit: false,
 							pricalName: "300",
 							checked: false,
